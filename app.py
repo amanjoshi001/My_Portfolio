@@ -89,16 +89,24 @@ st.write("---")
 st.write(
     """
     PATENT:
-    - Published - 202411013629 A
     1. "TRAFFIC LIGHT GUARD": AN AUTOMATED CAR HALTING SYSTEM AT TRAFFIC LIGHT.
+        - Published - 202411013629 A
         - Summary - Filed [26 Feb, 2024], 
         - a. Involves a device with cameras, sensors, and machine learning algorithms.
         - b. Detects traffic signals from a distance, adjusts car speed based on signal status.
         - c. Automatically controls brakesto ensure safe decelerationbefore the signal.
         - d. Hands back before control to the driver when the signal turn green.
 
-    - Under Process - 
     2. Intelli-Safe: Elevating Road Safety via Integrated Hardware and Machine Learning for Proactive Hazard Avoidance System.
+        - Published - 202411049367 A
+        - Summary - Filed [27 Jun, 2024],
+        - a. Involves a system consist of Integrated cameras, sensors, and machine learning algorithms.
+        - b. Detects pot holes/trench from a distance, adjusts car speed based on conditions (4 categorised conditions).
+        - c. Automatically controls brakes to ensure safe deceleration before the hazard.
+    
+    - Under Process -
+    
+    3. Related to Emergency Situation, Confidential right now. 
 """
 )
 
@@ -131,14 +139,14 @@ st.write(
 
 # --- WORK HISTORY ---
 st.write('\n')
-st.subheader("Work History")
+st.subheader("Experience")
 st.write("---")
 st.write(
     """
-    RESEARCH INTERN
-    - TBI GEU  ·  Internship
-    - Apr 2024 - Present · 2 mos
-    - Dehradun, Uttarakhand, India · Hybrid
+    YouTuber (CODING WORLD)
+    - YouTube  ·  Part-Time
+    - Jun 2023 - Present 
+    - India · Remote
 """
 )
 
@@ -157,3 +165,4 @@ st.write("To check it, please click the embedded links below.")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
+
